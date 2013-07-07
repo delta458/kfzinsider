@@ -1,0 +1,47 @@
+2013-04-10 02:10:26 ERROR - Class 'User_Controller' not found in /home/.sites/142/site774/web/test/laravel/routing/controller.php on line 228
+2013-04-10 02:10:31 ERROR - Class 'User_Controller' not found in /home/.sites/142/site774/web/test/laravel/routing/controller.php on line 228
+2013-04-10 02:12:46 ERROR - Class 'User_Controller' not found in /home/.sites/142/site774/web/test/laravel/routing/controller.php on line 228
+2013-04-10 02:12:46 ERROR - Class 'User_Controller' not found in /home/.sites/142/site774/web/test/laravel/routing/controller.php on line 228
+2013-04-10 02:12:46 ERROR - Class 'User_Controller' not found in /home/.sites/142/site774/web/test/laravel/routing/controller.php on line 228
+2013-04-10 02:12:46 ERROR - Class 'User_Controller' not found in /home/.sites/142/site774/web/test/laravel/routing/controller.php on line 228
+2013-04-10 02:12:47 ERROR - Class 'User_Controller' not found in /home/.sites/142/site774/web/test/laravel/routing/controller.php on line 228
+2013-04-10 02:12:50 ERROR - Class 'User_Controller' not found in /home/.sites/142/site774/web/test/laravel/routing/controller.php on line 228
+2013-04-10 02:12:53 ERROR - Class 'User_Controller' not found in /home/.sites/142/site774/web/test/laravel/routing/controller.php on line 228
+2013-04-10 02:12:59 ERROR - Class 'User_Controller' not found in /home/.sites/142/site774/web/test/laravel/routing/controller.php on line 228
+2013-04-10 02:13:03 ERROR - Class 'User_Controller' not found in /home/.sites/142/site774/web/test/laravel/routing/controller.php on line 228
+2013-04-10 02:13:07 ERROR - Class 'User_Controller' not found in /home/.sites/142/site774/web/test/laravel/routing/controller.php on line 228
+2013-04-10 02:53:47 ERROR - View [Forms.LoginForm] doesn't exist. in /home/.sites/142/site774/web/test/laravel/view.php on line 170
+2013-04-10 02:53:49 ERROR - View [Forms.LoginForm] doesn't exist. in /home/.sites/142/site774/web/test/laravel/view.php on line 170
+2013-04-10 02:53:51 ERROR - View [Forms.LoginForm] doesn't exist. in /home/.sites/142/site774/web/test/laravel/view.php on line 170
+2013-04-10 02:53:52 ERROR - View [Forms.LoginForm] doesn't exist. in /home/.sites/142/site774/web/test/laravel/view.php on line 170
+2013-04-10 02:53:53 ERROR - View [Forms.LoginForm] doesn't exist. in /home/.sites/142/site774/web/test/laravel/view.php on line 170
+2013-04-10 02:53:54 ERROR - View [Forms.LoginForm] doesn't exist. in /home/.sites/142/site774/web/test/laravel/view.php on line 170
+2013-04-10 02:53:55 ERROR - View [Forms.LoginForm] doesn't exist. in /home/.sites/142/site774/web/test/laravel/view.php on line 170
+2013-04-10 02:53:58 ERROR - View [Forms.LoginForm] doesn't exist. in /home/.sites/142/site774/web/test/laravel/view.php on line 170
+2013-04-10 02:55:43 ERROR - View [forms.LoginForm] doesn't exist. in /home/.sites/142/site774/web/test/laravel/view.php on line 170
+2013-04-10 02:55:44 ERROR - View [forms.LoginForm] doesn't exist. in /home/.sites/142/site774/web/test/laravel/view.php on line 170
+2013-04-10 02:55:45 ERROR - View [forms.LoginForm] doesn't exist. in /home/.sites/142/site774/web/test/laravel/view.php on line 170
+2013-04-10 03:03:36 ERROR - Can't use function return value in write context in /home/.sites/142/site774/web/test/laravel/view.php(386) : eval()'d code on line 22
+2013-04-10 03:03:39 ERROR - Can't use function return value in write context in /home/.sites/142/site774/web/test/laravel/view.php(386) : eval()'d code on line 22
+2013-04-10 03:03:39 ERROR - Can't use function return value in write context in /home/.sites/142/site774/web/test/laravel/view.php(386) : eval()'d code on line 22
+2013-04-10 03:03:43 ERROR - Can't use function return value in write context in /home/.sites/142/site774/web/test/laravel/view.php(386) : eval()'d code on line 22
+2013-04-10 03:03:44 ERROR - Can't use function return value in write context in /home/.sites/142/site774/web/test/laravel/view.php(386) : eval()'d code on line 22
+2013-04-10 03:03:45 ERROR - Can't use function return value in write context in /home/.sites/142/site774/web/test/laravel/view.php(386) : eval()'d code on line 22
+2013-04-10 03:04:48 ERROR - syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home/.sites/142/site774/web/test/laravel/view.php(386) : eval()'d code on line 22
+2013-04-10 03:05:48 ERROR - PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] Connection refused (trying to connect via tcp://127.0.0.1:3306) in /home/.sites/142/site774/web/test/laravel/database/connectors/mysql.php on line 33
+2013-04-10 03:05:56 ERROR - PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] Connection refused (trying to connect via tcp://127.0.0.1:3306) in /home/.sites/142/site774/web/test/laravel/database/connectors/mysql.php on line 33
+2013-04-10 03:11:21 ERROR - PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] Connection refused (trying to connect via tcp://127.0.0.1:3306) in /home/.sites/142/site774/web/test/laravel/database/connectors/mysql.php on line 33
+2013-04-10 03:11:49 ERROR - View [backend.settingsAll] doesn't exist. in /home/.sites/142/site774/web/test/laravel/view.php on line 170
+2013-04-10 04:09:06 ERROR - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list'
+
+SQL: INSERT INTO `garage` (`name`, `address`, `updated_at`, `created_at`) VALUES (?, ?, ?, ?)
+
+Bindings: array (
+  0 => 'Test',
+  1 => 'test123',
+  2 => '2013-04-10 04:09:06',
+  3 => '2013-04-10 04:09:06',
+) in /home/.sites/142/site774/web/test/laravel/database/connection.php on line 263
+2013-04-10 04:13:19 INFO - passed!
+2013-04-10 17:01:27 INFO - taken!
+2013-04-10 17:01:39 INFO - passed!

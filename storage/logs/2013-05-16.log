@@ -1,0 +1,20 @@
+2013-05-16 12:09:06 ERROR - Call to a member function delete() on a non-object in /home/.sites/142/site774/web/test/application/controllers/backend/service.php on line 47
+2013-05-16 12:11:46 ERROR - Call to a member function delete() on a non-object in /home/.sites/142/site774/web/test/application/controllers/backend/service.php on line 47
+2013-05-16 12:18:16 ERROR - Class 'oute' not found in /home/.sites/142/site774/web/test/application/routes.php on line 37
+2013-05-16 12:18:21 ERROR - Class 'oute' not found in /home/.sites/142/site774/web/test/application/routes.php on line 37
+2013-05-16 12:18:22 ERROR - Class 'oute' not found in /home/.sites/142/site774/web/test/application/routes.php on line 37
+2013-05-16 12:18:23 ERROR - Class 'oute' not found in /home/.sites/142/site774/web/test/application/routes.php on line 37
+2013-05-16 12:18:24 ERROR - Class 'oute' not found in /home/.sites/142/site774/web/test/application/routes.php on line 37
+2013-05-16 12:18:25 ERROR - Class 'oute' not found in /home/.sites/142/site774/web/test/application/routes.php on line 37
+2013-05-16 12:18:27 ERROR - Class 'oute' not found in /home/.sites/142/site774/web/test/application/routes.php on line 37
+2013-05-16 12:18:33 ERROR - Class 'oute' not found in /home/.sites/142/site774/web/test/application/routes.php on line 37
+2013-05-16 12:19:30 ERROR - Creating default object from empty value in /home/.sites/142/site774/web/test/application/controllers/backend/service.php on line 37
+2013-05-16 12:20:08 ERROR - Creating default object from empty value in /home/.sites/142/site774/web/test/application/controllers/backend/service.php on line 37
+2013-05-16 12:20:15 ERROR - Call to a member function delete() on a non-object in /home/.sites/142/site774/web/test/application/controllers/backend/service.php on line 46
+2013-05-16 12:21:34 ERROR - Creating default object from empty value in /home/.sites/142/site774/web/test/application/controllers/backend/service.php on line 37
+2013-05-16 12:22:52 ERROR - Creating default object from empty value in /home/.sites/142/site774/web/test/application/controllers/backend/service.php on line 37
+2013-05-16 12:22:54 ERROR - Creating default object from empty value in /home/.sites/142/site774/web/test/application/controllers/backend/service.php on line 37
+2013-05-16 12:23:02 ERROR - Creating default object from empty value in /home/.sites/142/site774/web/test/application/controllers/backend/service.php on line 37
+2013-05-16 12:24:57 ERROR - Creating default object from empty value in /home/.sites/142/site774/web/test/application/controllers/backend/service.php on line 37
+2013-05-16 12:55:03 ERROR - Undefined variable: service in /home/.sites/142/site774/web/test/laravel/view.php(386) : eval()'d code on line 9
+2013-05-16 12:57:27 ERROR - Undefined variable: service in /home/.sites/142/site774/web/test/laravel/view.php(386) : eval()'d code on line 9

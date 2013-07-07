@@ -1,0 +1,20 @@
+2013-04-02 04:02:15 ERROR - htmlentities() expects parameter 1 to be string, object given in C:\xampp\htdocs\kfzinsider\laravel\html.php on line 41
+2013-04-02 04:04:37 ERROR - htmlentities() expects parameter 1 to be string, object given in C:\xampp\htdocs\kfzinsider\laravel\html.php on line 41
+2013-04-02 04:04:38 ERROR - htmlentities() expects parameter 1 to be string, object given in C:\xampp\htdocs\kfzinsider\laravel\html.php on line 41
+2013-04-02 04:05:08 ERROR - htmlentities() expects parameter 1 to be string, object given in C:\xampp\htdocs\kfzinsider\laravel\html.php on line 41
+2013-04-02 04:05:09 ERROR - htmlentities() expects parameter 1 to be string, object given in C:\xampp\htdocs\kfzinsider\laravel\html.php on line 41
+2013-04-02 04:05:21 ERROR - htmlentities() expects parameter 1 to be string, object given in C:\xampp\htdocs\kfzinsider\laravel\html.php on line 41
+2013-04-02 04:09:30 ERROR - Object of class Garage could not be converted to string in C:\xampp\htdocs\kfzinsider\laravel\view.php(386) : eval()'d code on line 14
+2013-04-02 04:16:50 ERROR - htmlentities() expects parameter 1 to be string, object given in C:\xampp\htdocs\kfzinsider\laravel\html.php on line 41
+2013-04-02 04:16:51 ERROR - htmlentities() expects parameter 1 to be string, object given in C:\xampp\htdocs\kfzinsider\laravel\html.php on line 41
+2013-04-02 04:16:51 ERROR - htmlentities() expects parameter 1 to be string, object given in C:\xampp\htdocs\kfzinsider\laravel\html.php on line 41
+2013-04-02 04:17:18 ERROR - htmlentities() expects parameter 1 to be string, object given in C:\xampp\htdocs\kfzinsider\laravel\html.php on line 41
+2013-04-02 04:17:19 ERROR - htmlentities() expects parameter 1 to be string, object given in C:\xampp\htdocs\kfzinsider\laravel\html.php on line 41
+2013-04-02 04:20:47 ERROR - syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\kfzinsider\laravel\view.php(386) : eval()'d code on line 14
+2013-04-02 04:20:48 ERROR - syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\kfzinsider\laravel\view.php(386) : eval()'d code on line 14
+2013-04-02 04:26:50 ERROR - syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\kfzinsider\laravel\view.php(386) : eval()'d code on line 19
+2013-04-02 04:26:51 ERROR - syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\kfzinsider\laravel\view.php(386) : eval()'d code on line 19
+2013-04-02 04:26:51 ERROR - syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\kfzinsider\laravel\view.php(386) : eval()'d code on line 19
+2013-04-02 04:27:38 ERROR - syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\kfzinsider\laravel\view.php(386) : eval()'d code on line 19
+2013-04-02 04:27:39 ERROR - syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\kfzinsider\laravel\view.php(386) : eval()'d code on line 19
+2013-04-02 04:36:38 ERROR - Class 'Garage_Garage_Controller' not found in C:\xampp\htdocs\kfzinsider\laravel\routing\controller.php on line 228

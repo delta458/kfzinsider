@@ -1,0 +1,156 @@
+2013-02-22 00:12:33 INFO - test
+2013-02-22 00:13:00 INFO - test
+2013-02-22 00:13:03 INFO - test
+2013-02-22 00:15:05 INFO - test
+2013-02-22 00:15:20 INFO - test
+2013-02-22 00:17:12 INFO - here!
+2013-02-22 00:17:12 INFO - passed!
+2013-02-22 00:17:12 INFO - test
+2013-02-22 00:18:02 INFO - Credentials are XXX 
+2013-02-22 00:23:36 DEBUG - Credentials are EMAIL IS test@test.com
+2013-02-22 00:23:36 DEBUG - Credentials are PASS IS test
+2013-02-22 00:23:36 DEBUG - Credentials are USERNAME IS 
+2013-02-22 00:25:26 DEBUG - Credentials are EMAIL IS  
+2013-02-22 00:25:26 DEBUG - Credentials are PASS IS test
+2013-02-22 00:25:26 DEBUG - Credentials are USERNAME IS 
+2013-02-22 00:25:48 DEBUG - Credentials are EMAIL IS 
+2013-02-22 00:25:48 DEBUG - Credentials are PASS IS test
+2013-02-22 00:25:48 DEBUG - Credentials are USERNAME IS 
+2013-02-22 00:25:59 DEBUG - Credentials are EMAIL IS Aisek
+2013-02-22 00:25:59 DEBUG - Credentials are PASS IS raubelki
+2013-02-22 00:25:59 DEBUG - Credentials are USERNAME IS 
+2013-02-22 00:26:22 DEBUG - Credentials are EMAIL IS ifr_ais@yahoo.de
+2013-02-22 00:26:22 DEBUG - Credentials are PASS IS raubelki
+2013-02-22 00:26:22 DEBUG - Credentials are USERNAME IS 
+2013-02-22 00:26:35 DEBUG - Credentials are EMAIL IS Aisek
+2013-02-22 00:26:35 DEBUG - Credentials are PASS IS raubelki
+2013-02-22 00:26:35 DEBUG - Credentials are USERNAME IS 
+2013-02-22 00:26:46 DEBUG - Credentials are EMAIL IS test@test.com
+2013-02-22 00:26:46 DEBUG - Credentials are PASS IS test
+2013-02-22 00:26:46 DEBUG - Credentials are USERNAME IS 
+2013-02-22 00:31:40 INFO - here!
+2013-02-22 00:31:40 INFO - taken!
+2013-02-22 00:31:48 INFO - here!
+2013-02-22 00:31:48 INFO - passed!
+2013-02-22 00:31:48 ERROR - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'field list'
+
+SQL: INSERT INTO `users` (`username`, `password`, `updated_at`, `created_at`) VALUES (?, ?, ?, ?)
+
+Bindings: array (
+  0 => 'bla',
+  1 => '$2a$08$0QQV.QEcSAvxUjxVddd7cOSXjK8q6sWN/VGOdQq7ZFzE3onr4qSXu',
+  2 => '2013-02-22 00:31:48',
+  3 => '2013-02-22 00:31:48',
+) in C:\xampp\htdocs\kfzinsider\laravel\database\connection.php on line 263
+2013-02-22 00:32:56 INFO - here!
+2013-02-22 00:32:56 INFO - taken!
+2013-02-22 00:33:14 INFO - here!
+2013-02-22 00:33:14 INFO - taken!
+2013-02-22 00:33:28 INFO - test
+2013-02-22 02:52:36 INFO - test
+2013-02-22 02:52:42 DEBUG - Credentials are EMAIL IS test@test.com
+2013-02-22 02:52:42 DEBUG - Credentials are PASS IS test
+2013-02-22 02:52:42 DEBUG - Credentials are USERNAME IS 
+2013-02-22 02:52:52 DEBUG - Credentials are EMAIL IS ifr_ais@yahoo.de
+2013-02-22 02:52:52 DEBUG - Credentials are PASS IS raubelki
+2013-02-22 02:52:52 DEBUG - Credentials are USERNAME IS 
+2013-02-22 02:52:52 INFO - test
+2013-02-22 02:55:06 INFO - test
+2013-02-22 02:55:16 INFO - here!
+2013-02-22 02:55:16 INFO - passed!
+2013-02-22 02:55:16 ERROR - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'field list'
+
+SQL: INSERT INTO `users` (`username`, `password`, `updated_at`, `created_at`) VALUES (?, ?, ?, ?)
+
+Bindings: array (
+  0 => 'test@test.com',
+  1 => '$2a$08$41Ed11AVzDaQq7fqO9jGJ.r/EUJhpO70dtZQWOpdJJZKL3qTQvdQK',
+  2 => '2013-02-22 02:55:16',
+  3 => '2013-02-22 02:55:16',
+) in C:\xampp\htdocs\kfzinsider\laravel\database\connection.php on line 263
+2013-02-22 02:55:27 INFO - here!
+2013-02-22 02:55:27 INFO - passed!
+2013-02-22 02:55:27 ERROR - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'field list'
+
+SQL: INSERT INTO `users` (`username`, `password`, `updated_at`, `created_at`) VALUES (?, ?, ?, ?)
+
+Bindings: array (
+  0 => 'test@test.com',
+  1 => '$2a$08$Yz1xvQwk2PiK54zwUimFR.H/R18Di8Bqjr6iWiJUmq2/9huc2D6qm',
+  2 => '2013-02-22 02:55:27',
+  3 => '2013-02-22 02:55:27',
+) in C:\xampp\htdocs\kfzinsider\laravel\database\connection.php on line 263
+2013-02-22 02:55:33 DEBUG - Credentials are EMAIL IS test@test.com
+2013-02-22 02:55:33 DEBUG - Credentials are PASS IS test
+2013-02-22 02:55:33 DEBUG - Credentials are USERNAME IS 
+2013-02-22 02:55:57 DEBUG - Credentials are EMAIL IS test@test.com
+2013-02-22 02:55:57 DEBUG - Credentials are PASS IS test
+2013-02-22 02:55:57 DEBUG - Credentials are USERNAME IS 
+2013-02-22 02:56:03 INFO - here!
+2013-02-22 02:56:03 INFO - passed!
+2013-02-22 02:56:03 INFO - test
+2013-02-22 02:56:09 DEBUG - Credentials are EMAIL IS test@test.com
+2013-02-22 02:56:09 DEBUG - Credentials are PASS IS test
+2013-02-22 02:56:09 DEBUG - Credentials are USERNAME IS 
+2013-02-22 02:56:57 DEBUG - Credentials are EMAIL IS test@test.com
+2013-02-22 02:56:57 DEBUG - Credentials are PASS IS test
+2013-02-22 02:56:57 DEBUG - Credentials are USERNAME IS 
+2013-02-22 02:57:04 INFO - here!
+2013-02-22 02:57:04 INFO - passed!
+2013-02-22 02:57:04 INFO - test
+2013-02-22 02:57:10 DEBUG - Credentials are EMAIL IS test@test.com
+2013-02-22 02:57:10 DEBUG - Credentials are PASS IS test
+2013-02-22 02:57:10 DEBUG - Credentials are USERNAME IS 
+2013-02-22 02:57:22 DEBUG - Credentials are EMAIL IS 
+2013-02-22 02:57:22 DEBUG - Credentials are PASS IS test
+2013-02-22 02:57:22 DEBUG - Credentials are USERNAME IS 
+2013-02-22 02:57:22 INFO - test
+2013-02-22 02:58:49 INFO - test
+2013-02-22 02:58:54 INFO - test
+2013-02-22 02:59:24 DEBUG - Credentials are EMAIL IS test@test.com
+2013-02-22 02:59:24 DEBUG - Credentials are PASS IS test
+2013-02-22 02:59:24 DEBUG - Credentials are USERNAME IS 
+2013-02-22 03:02:45 DEBUG - Credentials are EMAIL IS test@test.com
+2013-02-22 03:02:45 DEBUG - Credentials are PASS IS test
+2013-02-22 03:02:45 DEBUG - Credentials are USERNAME IS 
+2013-02-22 03:03:27 INFO - here!
+2013-02-22 03:03:27 INFO - taken!
+2013-02-22 03:03:31 INFO - here!
+2013-02-22 03:03:31 INFO - passed!
+2013-02-22 03:03:32 ERROR - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'field list'
+
+SQL: INSERT INTO `users` (`username`, `password`, `updated_at`, `created_at`) VALUES (?, ?, ?, ?)
+
+Bindings: array (
+  0 => 'test@test.com',
+  1 => '$2a$08$6Ttj6VJ73T/5Kdo4XcYSregEv7aEuFmcXJwfwt8K2ksMYGVRLjSS2',
+  2 => '2013-02-22 03:03:32',
+  3 => '2013-02-22 03:03:32',
+) in C:\xampp\htdocs\kfzinsider\laravel\database\connection.php on line 263
+2013-02-22 03:03:50 INFO - test
+2013-02-22 03:07:55 DEBUG - Credentials are EMAIL IS test@test.com
+2013-02-22 03:07:55 DEBUG - Credentials are PASS IS test
+2013-02-22 03:07:55 DEBUG - Credentials are USERNAME IS 
+2013-02-22 03:08:05 INFO - here!
+2013-02-22 03:08:05 INFO - passed!
+2013-02-22 03:08:05 INFO - test
+2013-02-22 03:08:12 DEBUG - Credentials are EMAIL IS mmm
+2013-02-22 03:08:12 DEBUG - Credentials are PASS IS mm
+2013-02-22 03:08:12 DEBUG - Credentials are USERNAME IS 
+2013-02-22 03:08:12 INFO - test
+2013-02-22 03:08:17 INFO - test
+2013-02-22 03:08:21 DEBUG - Credentials are EMAIL IS mmm
+2013-02-22 03:08:21 DEBUG - Credentials are PASS IS mm
+2013-02-22 03:08:21 DEBUG - Credentials are USERNAME IS 
+2013-02-22 03:08:21 INFO - test
+2013-02-22 03:08:58 DEBUG - Credentials are EMAIL IS mmm
+2013-02-22 03:08:58 DEBUG - Credentials are PASS IS mm
+2013-02-22 03:08:58 DEBUG - Credentials are USERNAME IS 
+2013-02-22 03:08:58 INFO - test
+2013-02-22 03:09:06 INFO - here!
+2013-02-22 03:09:06 INFO - taken!
+2013-02-22 03:09:19 INFO - test
+2013-02-22 03:34:56 INFO - here!
+2013-02-22 03:34:56 INFO - passed!
+2013-02-22 03:35:03 INFO - here!
+2013-02-22 03:35:03 INFO - taken!
