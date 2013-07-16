@@ -10,7 +10,7 @@
 <p>{{ Form::text('id',$category->id) }}</p>
 <!-- name field -->
 <p>{{ Form::label('category_name', 'Name') }}</p>
-<p>{{ Form::text('category_name',$category->name) }}</p>
+<p>{{ Form::text('category_name',$category->category_name) }}</p>
 <!-- submit button -->
 <p>{{ Form::submit('Bestätigen') }}</p>
 

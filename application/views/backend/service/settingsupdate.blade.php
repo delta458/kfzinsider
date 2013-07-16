@@ -10,7 +10,7 @@
 <p>{{ Form::text('id',$service->id) }}</p>
 <!-- name field -->
 <p>{{ Form::label('service_name', 'Name') }}</p>
-<p>{{ Form::text('service_name',$service->name) }}</p>
+<p>{{ Form::text('service_name',$service->service_name) }}</p>
 <!-- submit button -->
 <p>{{ Form::submit('Bestätigen') }}</p>
 

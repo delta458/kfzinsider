@@ -44,6 +44,14 @@ Route::post('serviceCreate', array('before' => 'csrf', 'uses' => 'backend.servic
 Route::post('serviceUpdateAction', array('uses' => 'backend.service@serviceUpdateAction'));
 Route::post('serviceUpdateOrDelete', array('uses' => 'backend.service@serviceUpdateOrDelete'));
 
+//Users
+Route::get('usersAll',array('uses' => 'backend.user@allUsers' ));
+Route::get('userCreate', array('uses' => 'backend.user@userCreate'));
+Route::post('userCreate', array('uses' => 'backend.user@userCreateAction'));
+
+Route::post('userUpdateAction', array('uses' => 'backend.user@userUpdateAction'));
+Route::post('userUpdateOrDelete', array('uses' => 'backend.user@userUpdateOrDelete'));
+
 HTML::macro('clever_link', function($route, $text) {
             $class = '';
             $action = Request::route();

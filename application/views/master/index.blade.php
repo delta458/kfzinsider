@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width">
         {{ HTML::style('css/bootstrap.css') }}
         {{ HTML::style('css/bootstrap.min.css') }}
+         {{ HTML::style('css/custom.css') }}
     </head>
     <body>
         <div class="container-fluid">
