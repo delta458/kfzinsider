@@ -14,7 +14,7 @@
         <tr>
             <td>{{ $category->category_name }}</td>
             <td>{{ Form::checkbox('categoryUpdate', $category->id) }}</td>
-            <td>{{ Form::checkbox('categoryDelete', $category->id) }}</td>
+            <td>{{ Form::checkbox('categoryDelete[]', $category->id) }}</td>
         </tr>
         @endforeach
     </table>

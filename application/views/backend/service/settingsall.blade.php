@@ -14,7 +14,7 @@
         <tr>
             <td>{{ $service->service_name }}</td>
             <td>{{ Form::checkbox('serviceUpdate', $service->id) }}</td>
-            <td>{{ Form::checkbox('serviceDelete', $service->id) }}</td>
+            <td>{{ Form::checkbox('serviceDelete[]', $service->id) }}</td>
         </tr>
         @endforeach
     </table>

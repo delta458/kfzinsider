@@ -18,7 +18,7 @@
             <td>{{ $garage->address }}</td>
             <td>{{ $garage->id }}</td>
             <td>{{ Form::checkbox('garageUpdate', $garage->id) }}</td>
-            <td>{{ Form::checkbox('garageDelete', $garage->id) }}</td>
+            <td>{{ Form::checkbox('garageDelete[]', $garage->id) }}</td>
         </tr>
         @endforeach
     </table>

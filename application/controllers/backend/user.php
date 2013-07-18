@@ -63,12 +63,11 @@ class Backend_User_Controller extends Base_Controller {
     }
 
     public function post_userUpdateOrDelete() {
-        //TODO Update user
         if (Input::get('userUpdate') === NULL) {
-            $user = User::find(Input::get('userDelete'));
-            $user->delete();
-
-            //Garage::delete(array('id' => $userId));
+            $users = Input::get('userDelete');
+            foreach ($users as $user) {
+                User::find($user)->delete();
+            }
             return View::make('backend.user.settingsall')->with('message', 'User wurde erfolgreich gelöscht!')->with('users', User::all());
         } else {
             $user = User::find(Input::get('userUpdate'));
