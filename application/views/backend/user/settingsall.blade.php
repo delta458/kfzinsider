@@ -9,12 +9,18 @@
             <th>Bearbeiten</th>
             <th>Löschen</th>
         </tr>
-        
+
         @foreach($this->users as $user)
         <tr>
-            <td>{{ $user->email }}</td>
-            <td>{{ Form::checkbox('userUpdate', $user->id) }}</td>
-            <td>{{ Form::checkbox('userDelete[]', $user->id) }}</td>
+            <td>
+                @if($user->isadmin)
+                    <b> {{ $user->email }} (Admin) </b>
+                @else 
+                    {{ $user->email }} 
+                @endif
+        </td>
+        <td>{{ Form::checkbox('userUpdate', $user->id) }}</td>
+        <td>{{ Form::checkbox('userDelete[]', $user->id) }}</td>
         </tr>
         @endforeach
     </table>

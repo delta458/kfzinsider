@@ -21,16 +21,19 @@ class Backend_Service_Controller extends Base_Controller {
     }
 
     public function get_serviceCreate() {
-        
-        return View::make('backend.service.settingscreate')->with('title', 'Dienstleistung hinzufügen');
-        
+        return View::make('backend.service.settingscreate')
+                ->with('title', 'Dienstleistung hinzufügen')
+            ->with('categories',Category::lists('category_name','id'));
+       
     }
 
     public function post_serviceCreateAction() {
         
-        Service::create(array(
-            'service_name' => Input::get('name')
+        $service = Service::create(array(
+            'service_name' => Input::get('name'),
+            'category_id' => Input::get('categories')
         ));
+       
         return Redirect::to_route('settings')->with('message', 'Dienstleistung wurde erfolgreich erstellt!');
         
     }

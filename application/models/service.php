@@ -7,4 +7,8 @@ class Service extends Basemodel {
         'service_name'=>'required'
     );
     
+    public function category() {
+        return $this->belongs_to('Category','category_id');
+    }
+    
 }

@@ -14,6 +14,11 @@
 <!-- username field -->
 <p>{{ Form::label('name', 'Name') }}</p>
 <p>{{ Form::text('name',Input::old('name')) }}</p>
+
+<p>{{ Form::label('category', 'Kategorie') }}</p>
+
+
+<p>{{ Form::select('categories', $categories) }}</p>
 <!-- submit button -->
 <p>{{ Form::submit('Hinzufügen') }}</p>
 {{ Form::close() }}
