@@ -7,7 +7,7 @@
 {{ Form::token()}}
 <!-- id field -->
 <p>{{ Form::label('id', 'Id') }}</p>
-<p>{{ Form::text('id',$user->id) }}</p>
+<p>{{ Form::text('id',$user->id, array('readonly' => 'readonly')) }}</p>
 
 {{ Form::label('name', 'Name') }} {{ Form::text('name',$user->name) }}
 {{ Form::label('email', 'Email') }} {{ Form::text('email',$user->email) }}

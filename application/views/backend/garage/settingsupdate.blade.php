@@ -7,7 +7,7 @@
 {{ Form::token()}}
 <!-- id field -->
 <p>{{ Form::label('id', 'Id') }}</p>
-<p>{{ Form::text('id',$garage->id) }}</p>
+<p>{{ Form::text('id',$garage->id, array('readonly' => 'readonly')) }}</p>
 <!-- username field -->
 <p>{{ Form::label('name', 'Name') }}</p>
 <p>{{ Form::text('name',$garage->name) }}</p>

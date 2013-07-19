@@ -29,12 +29,12 @@ class Backend_Service_Controller extends Base_Controller {
 
     public function post_serviceCreateAction() {
         
-        $service = Service::create(array(
+        Service::create(array(
             'service_name' => Input::get('name'),
             'category_id' => Input::get('categories')
         ));
        
-        return Redirect::to_route('settings')->with('message', 'Dienstleistung wurde erfolgreich erstellt!');
+        return View::make('backend.service.settingsall')->with('message', 'Dienstleistung wurde erfolgreich erstellt!')->with('services', Service::all());
         
     }
 
@@ -42,6 +42,7 @@ class Backend_Service_Controller extends Base_Controller {
         
         $service = Service::find(Input::get('id'));
         $service->service_name = Input::get('service_name');
+        $service->category_id = Input::get('categories');
         $service->save();
         return View::make('backend.service.settingsall')->with('message', 'Dienstleistung wurde erfolgreich aktualisiert!')->with('services', Service::all());
            
@@ -57,7 +58,9 @@ class Backend_Service_Controller extends Base_Controller {
             return View::make('backend.service.settingsall')->with('message', 'Dienstleistung wurde erfolgreich gelöscht!')->with('services', Service::all());
         } else {
             $service = Service::find(Input::get('serviceUpdate'));
-            return View::make('backend.service.settingsupdate')->with('service', $service);
+            return View::make('backend.service.settingsupdate')
+                    ->with('service', $service)
+                    ->with('categories',Category::lists('category_name','id'));
         }
         
     }
